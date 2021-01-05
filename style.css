@@ -17,10 +17,9 @@ a{
 	text-decoration:none;
 }
 #main{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    border: 2px solid red;
+	width:100%;
+	height:100vh;
+	position: relative;
 }
 nav{
     display: flex;
@@ -30,38 +29,67 @@ nav{
     position: fixed;
     left: 0px;
     top: 0px;
-    height: 100%;
+    width: 100%;
     z-index: 1;
     background-color: #ffffff;
-    border: 2px solid tomato;
 }
 .logo img{
-    height: 45px;
+	height:45px;
 }
 nav ul{
-    display: flex;
+	display: flex;
 }
 nav ul li a{
-    height: 40px;
-    line-height: 43px;
-    margin: 3px;
-    padding: 0px 22px;
-    display: flex;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #585b5b;
-    letter-spacing: 1px;
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
 }
 .hey{
-    color: #39bfbd;
-    font-weight: 500;
-    font-size: 0.9rem;
-    border-bottom: 2px solid #40c6c4;
+	color:#39bfbd;
+	font-weight: 500;
+	font-size: 0.9rem;
+	border-bottom: 2px solid #40c6c4;
 }
 nav ul li a:hover{
-    background: #2adabc;
-    color: white;
-    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
-    transition: all ease 0.2s;
+	background-color: #2adabc;
+	color:#FFFFFF;
+	box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+	transition: all ease 0.2s;
+}
+.logo img{
+	height:45px;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+}
+.hey{
+	color:#39bfbd;
+	font-weight: 500;
+	font-size: 0.9rem;
+	border-bottom: 2px solid #40c6c4;
+}
+nav ul li a:hover{
+	background-color: #2adabc;
+	color:#FFFFFF;
+	box-shadow: 5px 10px 30px rgba(64,198,196,0.3);
+	transition: all ease 0.2s;
 }
