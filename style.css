@@ -57,3 +57,9 @@ nav ul li a{
     font-size: 0.9rem;
     border-bottom: 2px solid #40c6c4;
 }
+nav ul li a:hover{
+    background: #2adabc;
+    color: white;
+    box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+    transition: all ease 0.2s;
+}
